@@ -1,9 +1,9 @@
 import React from 'react'
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, BarElement, Tooltip, Legend } from 'chart.js'
+import { Chart as ChartJS, registerables } from 'chart.js'
 import { Bar, Bubble } from 'react-chartjs-2'
 import '../../styles/Charts.css'
 
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, Tooltip, Legend)
+ChartJS.register(...registerables)
 
 function AnalisisTab({ data }) {
   const labels = data.map(s => s.nombre.split(' ')[0])

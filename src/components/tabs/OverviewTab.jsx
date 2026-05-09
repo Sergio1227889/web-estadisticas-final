@@ -1,9 +1,9 @@
 import React from 'react'
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, BarElement, ArcElement, RadialLinearScale, RadarController, RadialLinearScale, RadialLinearScale, Tooltip, Legend } from 'chart.js'
+import { Chart as ChartJS, registerables } from 'chart.js'
 import { Bar, Line, Doughnut, Radar } from 'react-chartjs-2'
 import '../../styles/Charts.css'
 
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, ArcElement, RadialLinearScale, RadarController, RadialLinearScale, RadialLinearScale, Tooltip, Legend)
+ChartJS.register(...registerables)
 
 function OverviewTab({ data }) {
   const labels = data.map(s => s.nombre.split(' ')[0])
