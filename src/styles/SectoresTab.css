@@ -1,0 +1,74 @@
+/* Sectores Tab Styles */
+.sector-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.sector-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  border-top: 5px solid;
+  transition: all 0.3s;
+}
+
+.sector-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow);
+}
+
+.sector-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.sector-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: var(--dark);
+}
+
+.sector-stat {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+.sector-stat:last-child {
+  border-bottom: none;
+}
+
+.stat-label {
+  color: #666;
+  font-weight: 500;
+}
+
+.stat-value {
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.stat-value.positive {
+  color: var(--success);
+}
+
+@media (max-width: 768px) {
+  .sector-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .sector-icon {
+    font-size: 2rem;
+  }
+
+  .sector-name {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,9 @@
+/* App Styles */
+.app {
+  background: linear-gradient(135deg, var(--light) 0%, #E8EEF5 100%);
+  min-height: 100vh;
+}
+
+.main-content {
+  padding: 0;
+}

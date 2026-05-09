@@ -1,0 +1,238 @@
+{
+  "sectores": [
+    {
+      "id": "retail",
+      "nombre": "Retail & Comercio Electrónico",
+      "icon": "🛍️",
+      "color": "#FF6B35",
+      "ventas": 5570000,
+      "clientes": 18800,
+      "crecimiento": 8.7,
+      "margen": 35,
+      "comercios": [
+        {
+          "id": 1,
+          "nombre": "TechStore Online",
+          "ventas": 2450000,
+          "transacciones": 15420,
+          "ticket": 158.9,
+          "crecimiento": 12.5,
+          "margen": 28
+        },
+        {
+          "id": 2,
+          "nombre": "Fashion Hub",
+          "ventas": 1890000,
+          "transacciones": 12300,
+          "ticket": 153.7,
+          "crecimiento": 8.3,
+          "margen": 42
+        },
+        {
+          "id": 3,
+          "nombre": "Home & Living",
+          "ventas": 1230000,
+          "transacciones": 7800,
+          "ticket": 157.7,
+          "crecimiento": 5.2,
+          "margen": 35
+        }
+      ]
+    },
+    {
+      "id": "gastronomia",
+      "nombre": "Gastronomía & Alimentos",
+      "icon": "🍔",
+      "color": "#F7B801",
+      "ventas": 2660000,
+      "clientes": 10200,
+      "crecimiento": 12.1,
+      "margen": 31,
+      "comercios": [
+        {
+          "id": 4,
+          "nombre": "Burger Master",
+          "ventas": 890000,
+          "transacciones": 18500,
+          "ticket": 48.1,
+          "crecimiento": 15.7,
+          "margen": 22
+        },
+        {
+          "id": 5,
+          "nombre": "Gourmet Café",
+          "ventas": 650000,
+          "transacciones": 22100,
+          "ticket": 29.4,
+          "crecimiento": 9.2,
+          "margen": 38
+        },
+        {
+          "id": 6,
+          "nombre": "Sushi Premium",
+          "ventas": 1120000,
+          "transacciones": 8900,
+          "ticket": 125.8,
+          "crecimiento": 11.4,
+          "margen": 32
+        }
+      ]
+    },
+    {
+      "id": "servicios",
+      "nombre": "Servicios Profesionales",
+      "icon": "💼",
+      "color": "#004E89",
+      "ventas": 5780000,
+      "clientes": 2015,
+      "crecimiento": 15.9,
+      "margen": 62,
+      "comercios": [
+        {
+          "id": 7,
+          "nombre": "Digital Consulting",
+          "ventas": 3200000,
+          "transacciones": 450,
+          "ticket": 7111.1,
+          "crecimiento": 22.3,
+          "margen": 55
+        },
+        {
+          "id": 8,
+          "nombre": "Beauty & Wellness",
+          "ventas": 480000,
+          "transacciones": 3200,
+          "ticket": 150,
+          "crecimiento": 6.8,
+          "margen": 60
+        },
+        {
+          "id": 9,
+          "nombre": "Legal Services Pro",
+          "ventas": 2100000,
+          "transacciones": 280,
+          "ticket": 7500,
+          "crecimiento": 18.5,
+          "margen": 70
+        }
+      ]
+    },
+    {
+      "id": "salud",
+      "nombre": "Salud & Farmacia",
+      "icon": "⚕️",
+      "color": "#2E86AB",
+      "ventas": 3350000,
+      "clientes": 9400,
+      "crecimiento": 21.8,
+      "margen": 43,
+      "comercios": [
+        {
+          "id": 10,
+          "nombre": "PharmaCare Online",
+          "ventas": 1650000,
+          "transacciones": 8900,
+          "ticket": 185.4,
+          "crecimiento": 14.2,
+          "margen": 18
+        },
+        {
+          "id": 11,
+          "nombre": "Wellness Supplements",
+          "ventas": 920000,
+          "transacciones": 5600,
+          "ticket": 164.3,
+          "crecimiento": 19.8,
+          "margen": 45
+        },
+        {
+          "id": 12,
+          "nombre": "Clínica Virtual",
+          "ventas": 780000,
+          "transacciones": 2100,
+          "ticket": 371.4,
+          "crecimiento": 31.5,
+          "margen": 65
+        }
+      ]
+    },
+    {
+      "id": "educacion",
+      "nombre": "Educación & E-Learning",
+      "icon": "📚",
+      "color": "#A23B72",
+      "ventas": 2960000,
+      "clientes": 3950,
+      "crecimiento": 21.0,
+      "margen": 72,
+      "comercios": [
+        {
+          "id": 13,
+          "nombre": "TechAcademy",
+          "ventas": 1450000,
+          "transacciones": 3200,
+          "ticket": 453.1,
+          "crecimiento": 25.6,
+          "margen": 72
+        },
+        {
+          "id": 14,
+          "nombre": "Language Masters",
+          "ventas": 890000,
+          "transacciones": 1800,
+          "ticket": 494.4,
+          "crecimiento": 20.1,
+          "margen": 68
+        },
+        {
+          "id": 15,
+          "nombre": "Tutoring Plus",
+          "ventas": 620000,
+          "transacciones": 850,
+          "ticket": 729.4,
+          "crecimiento": 17.3,
+          "margen": 75
+        }
+      ]
+    },
+    {
+      "id": "viajes",
+      "nombre": "Viajes & Turismo",
+      "icon": "✈️",
+      "color": "#00A86B",
+      "ventas": 5870000,
+      "clientes": 2750,
+      "crecimiento": 17.2,
+      "margen": 18,
+      "comercios": [
+        {
+          "id": 16,
+          "nombre": "TravelHub Global",
+          "ventas": 2800000,
+          "transacciones": 1200,
+          "ticket": 2333.3,
+          "crecimiento": 16.8,
+          "margen": 12
+        },
+        {
+          "id": 17,
+          "nombre": "Hotel Booking Pro",
+          "ventas": 1950000,
+          "transacciones": 2800,
+          "ticket": 696.4,
+          "crecimiento": 13.2,
+          "margen": 8
+        },
+        {
+          "id": 18,
+          "nombre": "Adventure Tours",
+          "ventas": 1120000,
+          "transacciones": 650,
+          "ticket": 1723.1,
+          "crecimiento": 21.5,
+          "margen": 35
+        }
+      ]
+    }
+  ]
+}

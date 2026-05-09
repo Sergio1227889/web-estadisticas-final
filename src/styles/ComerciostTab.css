@@ -1,0 +1,74 @@
+/* Comercios Tab Styles */
+.table-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 3rem;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: linear-gradient(135deg, var(--light) 0%, #E8EEF5 100%);
+  border-bottom: 2px solid var(--primary);
+}
+
+th {
+  padding: 1.2rem;
+  text-align: left;
+  font-weight: 700;
+  color: var(--dark);
+  font-size: 0.95rem;
+}
+
+td {
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr {
+  transition: background 0.2s;
+}
+
+tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.rank {
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 1.3rem;
+}
+
+.sector-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.positive {
+  color: var(--success);
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .table-card {
+    padding: 1rem;
+    overflow-x: auto;
+  }
+
+  table {
+    font-size: 0.85rem;
+  }
+
+  th, td {
+    padding: 0.8rem;
+  }
+}
